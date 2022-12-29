@@ -1,35 +1,35 @@
 # VolleyballScoreApp
-English / [日本語](./README-ja.md)
+[English](./README.md) / 日本語
 
-## Table of Contents
-- [Development](#Development)
+## 目次
+- [開発](#開発)
 
-## Development
+## 開発
 
-### Environmental Information
+### 環境情報
 - Xcode 14.2
 - macOS Monterey 12.5+
 
-### Setup
-1. Clone the project
+### セットアップ
+1. プロジェクトのクローン
     ```shell
     $ git clone https://github.com/naoki-mrmt/VolleyballScoreApp.git
     $ cd VolleyballScoreApp
     ```
-2. Enable faster builds for Swift projects (Optional)
+2. Swiftプロジェクトのビルドを高速化 (任意)
     ```shell
     $ defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
     ```
-3. install CocoaPods
+3. CocoaPodsのインストール
     ```shell
     $ make setup
     ```
-4. Generate xcworkspace and Open Project in Xcode
+4. xcworkspaceの生成・起動
     ```shell
     $ make
     ```
 
-### Help
+### ヘルプ
 `make help`
 
 ```shell
@@ -40,4 +40,3 @@ open                 Open workspace in Xcode
 setup                setup
 help                 print this message
 ```
-

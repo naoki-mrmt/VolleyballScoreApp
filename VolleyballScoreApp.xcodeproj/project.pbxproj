@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */; };
+		3429EFD9D44BC5A95FB95F1B /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */; };
+		76F02114542B7164E2BCDB9B /* Pods_VolleyballScoreAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */; };
+		8886CCB5295DE52500706BC6 /* VolleyballScoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */; };
+		8886CCB7295DE52500706BC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB6295DE52500706BC6 /* ContentView.swift */; };
+		8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCB8295DE52600706BC6 /* Assets.xcassets */; };
+		8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */; };
+		8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */; };
+		8886CCD0295DE52600706BC6 /* VolleyballScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */; };
+		8886CCD2295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */; };
+		8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCDE295DE6EE00706BC6 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8886CCC2295DE52600706BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8886CCA9295DE52500706BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8886CCB0295DE52500706BC6;
+			remoteInfo = VolleyballScoreApp;
+		};
+		8886CCCC295DE52600706BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8886CCA9295DE52500706BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8886CCB0295DE52500706BC6;
+			remoteInfo = VolleyballScoreApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FE375921D87C53ADEC25F7 /* Pods-VolleyballScoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp/Pods-VolleyballScoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp/Pods-VolleyballScoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp-VolleyballScoreAppUITests/Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppApp.swift; sourceTree = "<group>"; };
+		8886CCB6295DE52500706BC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8886CCB8295DE52600706BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8886CCC1295DE52600706BC6 /* VolleyballScoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballScoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppTests.swift; sourceTree = "<group>"; };
+		8886CCCB295DE52600706BC6 /* VolleyballScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITests.swift; sourceTree = "<group>"; };
+		8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8886CCDE295DE6EE00706BC6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp-VolleyballScoreAppUITests/Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8886CCAE295DE52500706BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8886CCBE295DE52600706BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F02114542B7164E2BCDB9B /* Pods_VolleyballScoreAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8886CCC8295DE52600706BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3429EFD9D44BC5A95FB95F1B /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8886CCA8295DE52500706BC6 = {
+			isa = PBXGroup;
+			children = (
+				8886CCB3295DE52500706BC6 /* VolleyballScoreApp */,
+				8886CCC4295DE52600706BC6 /* VolleyballScoreAppTests */,
+				8886CCCE295DE52600706BC6 /* VolleyballScoreAppUITests */,
+				8886CCB2295DE52500706BC6 /* Products */,
+				C823406C13664F9DCEB63724 /* Pods */,
+				938192AAA19B3C41888B7ABE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8886CCB2295DE52500706BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */,
+				8886CCC1295DE52600706BC6 /* VolleyballScoreAppTests.xctest */,
+				8886CCCB295DE52600706BC6 /* VolleyballScoreAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8886CCB3295DE52500706BC6 /* VolleyballScoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */,
+				8886CCB6295DE52500706BC6 /* ContentView.swift */,
+				8886CCB8295DE52600706BC6 /* Assets.xcassets */,
+				8886CCBA295DE52600706BC6 /* Preview Content */,
+				8886CCDE295DE6EE00706BC6 /* Settings.bundle */,
+			);
+			path = VolleyballScoreApp;
+			sourceTree = "<group>";
+		};
+		8886CCBA295DE52600706BC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8886CCC4295DE52600706BC6 /* VolleyballScoreAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */,
+			);
+			path = VolleyballScoreAppTests;
+			sourceTree = "<group>";
+		};
+		8886CCCE295DE52600706BC6 /* VolleyballScoreAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */,
+				8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */,
+			);
+			path = VolleyballScoreAppUITests;
+			sourceTree = "<group>";
+		};
+		938192AAA19B3C41888B7ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */,
+				B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */,
+				7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C823406C13664F9DCEB63724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */,
+				21FE375921D87C53ADEC25F7 /* Pods-VolleyballScoreApp.release.xcconfig */,
+				4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */,
+				D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */,
+				B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */,
+				A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8886CCB0295DE52500706BC6 /* VolleyballScoreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8886CCD5295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreApp" */;
+			buildPhases = (
+				4F481B17F048051FECC2A2EB /* [CP] Check Pods Manifest.lock */,
+				8886CCAD295DE52500706BC6 /* Sources */,
+				8886CCAE295DE52500706BC6 /* Frameworks */,
+				8886CCAF295DE52500706BC6 /* Resources */,
+				8886CCE0295DE72100706BC6 /* Run Script LicexsePlist */,
+				8886CCE1295DE74900706BC6 /* Run Script Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolleyballScoreApp;
+			productName = VolleyballScoreApp;
+			productReference = 8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8886CCC0295DE52600706BC6 /* VolleyballScoreAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8886CCD8295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreAppTests" */;
+			buildPhases = (
+				DD26DE533A65C55ECC5D8AE1 /* [CP] Check Pods Manifest.lock */,
+				8886CCBD295DE52600706BC6 /* Sources */,
+				8886CCBE295DE52600706BC6 /* Frameworks */,
+				8886CCBF295DE52600706BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8886CCC3295DE52600706BC6 /* PBXTargetDependency */,
+			);
+			name = VolleyballScoreAppTests;
+			productName = VolleyballScoreAppTests;
+			productReference = 8886CCC1295DE52600706BC6 /* VolleyballScoreAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8886CCCA295DE52600706BC6 /* VolleyballScoreAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8886CCDB295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreAppUITests" */;
+			buildPhases = (
+				1D91A0FA385B0428FB705C21 /* [CP] Check Pods Manifest.lock */,
+				8886CCC7295DE52600706BC6 /* Sources */,
+				8886CCC8295DE52600706BC6 /* Frameworks */,
+				8886CCC9295DE52600706BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8886CCCD295DE52600706BC6 /* PBXTargetDependency */,
+			);
+			name = VolleyballScoreAppUITests;
+			productName = VolleyballScoreAppUITests;
+			productReference = 8886CCCB295DE52600706BC6 /* VolleyballScoreAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8886CCA9295DE52500706BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8886CCB0295DE52500706BC6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8886CCC0295DE52600706BC6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8886CCB0295DE52500706BC6;
+					};
+					8886CCCA295DE52600706BC6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8886CCB0295DE52500706BC6;
+					};
+				};
+			};
+			buildConfigurationList = 8886CCAC295DE52500706BC6 /* Build configuration list for PBXProject "VolleyballScoreApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8886CCA8295DE52500706BC6;
+			productRefGroup = 8886CCB2295DE52500706BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8886CCB0295DE52500706BC6 /* VolleyballScoreApp */,
+				8886CCC0295DE52600706BC6 /* VolleyballScoreAppTests */,
+				8886CCCA295DE52600706BC6 /* VolleyballScoreAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8886CCAF295DE52500706BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */,
+				8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */,
+				8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8886CCBF295DE52600706BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8886CCC9295DE52600706BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D91A0FA385B0428FB705C21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolleyballScoreApp-VolleyballScoreAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F481B17F048051FECC2A2EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolleyballScoreApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8886CCE0295DE72100706BC6 /* Run Script LicexsePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script LicexsePlist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$ENABLE_PREVIEW\" == \"YES\" ]; then\n  echo \"preview mode\"\n  exit 0\nfi\n\n${PODS_ROOT}/LicensePlist/license-plist --output-path \"$TARGET_NAME/Settings.bundle\" --github-token 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\n";
+		};
+		8886CCE1295DE74900706BC6 /* Run Script Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$ENABLE_PREVIEW\" == \"YES\" ]; then\n  echo \"preview mode\"\n  exit 0\nfi\n\n${PODS_ROOT}/SwiftLint/swiftlint lint\n";
+		};
+		DD26DE533A65C55ECC5D8AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolleyballScoreAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8886CCAD295DE52500706BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8886CCB7295DE52500706BC6 /* ContentView.swift in Sources */,
+				8886CCB5295DE52500706BC6 /* VolleyballScoreAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8886CCBD295DE52600706BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8886CCC7295DE52600706BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8886CCD0295DE52600706BC6 /* VolleyballScoreAppUITests.swift in Sources */,
+				8886CCD2295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8886CCC3295DE52600706BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8886CCB0295DE52500706BC6 /* VolleyballScoreApp */;
+			targetProxy = 8886CCC2295DE52600706BC6 /* PBXContainerItemProxy */;
+		};
+		8886CCCD295DE52600706BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8886CCB0295DE52500706BC6 /* VolleyballScoreApp */;
+			targetProxy = 8886CCCC295DE52600706BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8886CCD3295DE52600706BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8886CCD4295DE52600706BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8886CCD6295DE52600706BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolleyballScoreApp/Preview Content\"";
+				DEVELOPMENT_TEAM = J8NY99LH26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.muramoto.VolleyballScoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8886CCD7295DE52600706BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FE375921D87C53ADEC25F7 /* Pods-VolleyballScoreApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolleyballScoreApp/Preview Content\"";
+				DEVELOPMENT_TEAM = J8NY99LH26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.muramoto.VolleyballScoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8886CCD9295DE52600706BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8NY99LH26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.muramoto.VolleyballScoreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolleyballScoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VolleyballScoreApp";
+			};
+			name = Debug;
+		};
+		8886CCDA295DE52600706BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8NY99LH26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.muramoto.VolleyballScoreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolleyballScoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VolleyballScoreApp";
+			};
+			name = Release;
+		};
+		8886CCDC295DE52600706BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8NY99LH26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.muramoto.VolleyballScoreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VolleyballScoreApp;
+			};
+			name = Debug;
+		};
+		8886CCDD295DE52600706BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8NY99LH26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.muramoto.VolleyballScoreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VolleyballScoreApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8886CCAC295DE52500706BC6 /* Build configuration list for PBXProject "VolleyballScoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8886CCD3295DE52600706BC6 /* Debug */,
+				8886CCD4295DE52600706BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8886CCD5295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8886CCD6295DE52600706BC6 /* Debug */,
+				8886CCD7295DE52600706BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8886CCD8295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8886CCD9295DE52600706BC6 /* Debug */,
+				8886CCDA295DE52600706BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8886CCDB295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8886CCDC295DE52600706BC6 /* Debug */,
+				8886CCDD295DE52600706BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8886CCA9295DE52500706BC6 /* Project object */;
+}
