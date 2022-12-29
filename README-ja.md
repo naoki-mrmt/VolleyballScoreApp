@@ -16,7 +16,7 @@
     $ git clone https://github.com/naoki-mrmt/VolleyballScoreApp.git
     $ cd VolleyballScoreApp
     ```
-2. Swift プロジェクトのビルドを高速化 (任意)
+2. Swiftプロジェクトのビルドを高速化 (任意)
     ```shell
     $ defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
     ```
