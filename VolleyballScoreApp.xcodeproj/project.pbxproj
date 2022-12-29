@@ -182,6 +182,7 @@
 				8886CCAE295DE52500706BC6 /* Frameworks */,
 				8886CCAF295DE52500706BC6 /* Resources */,
 				8886CCE0295DE72100706BC6 /* Run Script LicexsePlist */,
+				8886CCE1295DE74900706BC6 /* Run Script Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -363,6 +364,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ \"$ENABLE_PREVIEW\" == \"YES\" ]; then\n  echo \"preview mode\"\n  exit 0\nfi\n\n${PODS_ROOT}/LicensePlist/license-plist --output-path \"$TARGET_NAME/Settings.bundle\" --github-token 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\n";
+		};
+		8886CCE1295DE74900706BC6 /* Run Script Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$ENABLE_PREVIEW\" == \"YES\" ]; then\n  echo \"preview mode\"\n  exit 0\nfi\n\n${PODS_ROOT}/SwiftLint/swiftlint lint\n";
 		};
 		DD26DE533A65C55ECC5D8AE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
