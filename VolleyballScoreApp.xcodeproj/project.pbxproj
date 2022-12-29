@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */; };
+		3429EFD9D44BC5A95FB95F1B /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */; };
+		76F02114542B7164E2BCDB9B /* Pods_VolleyballScoreAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */; };
 		8886CCB5295DE52500706BC6 /* VolleyballScoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */; };
 		8886CCB7295DE52500706BC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB6295DE52500706BC6 /* ContentView.swift */; };
 		8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCB8295DE52600706BC6 /* Assets.xcassets */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FE375921D87C53ADEC25F7 /* Pods-VolleyballScoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp/Pods-VolleyballScoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp/Pods-VolleyballScoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp-VolleyballScoreAppUITests/Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppApp.swift; sourceTree = "<group>"; };
 		8886CCB6295DE52500706BC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,10 @@
 		8886CCCB295DE52600706BC6 /* VolleyballScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITests.swift; sourceTree = "<group>"; };
 		8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp-VolleyballScoreAppUITests/Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F02114542B7164E2BCDB9B /* Pods_VolleyballScoreAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3429EFD9D44BC5A95FB95F1B /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,8 @@
 				8886CCC4295DE52600706BC6 /* VolleyballScoreAppTests */,
 				8886CCCE295DE52600706BC6 /* VolleyballScoreAppUITests */,
 				8886CCB2295DE52500706BC6 /* Products */,
+				C823406C13664F9DCEB63724 /* Pods */,
+				938192AAA19B3C41888B7ABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = VolleyballScoreAppUITests;
 			sourceTree = "<group>";
 		};
+		938192AAA19B3C41888B7ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */,
+				B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */,
+				7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C823406C13664F9DCEB63724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */,
+				21FE375921D87C53ADEC25F7 /* Pods-VolleyballScoreApp.release.xcconfig */,
+				4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */,
+				D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */,
+				B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */,
+				A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8886CCD5295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreApp" */;
 			buildPhases = (
+				4F481B17F048051FECC2A2EB /* [CP] Check Pods Manifest.lock */,
 				8886CCAD295DE52500706BC6 /* Sources */,
 				8886CCAE295DE52500706BC6 /* Frameworks */,
 				8886CCAF295DE52500706BC6 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8886CCD8295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreAppTests" */;
 			buildPhases = (
+				DD26DE533A65C55ECC5D8AE1 /* [CP] Check Pods Manifest.lock */,
 				8886CCBD295DE52600706BC6 /* Sources */,
 				8886CCBE295DE52600706BC6 /* Frameworks */,
 				8886CCBF295DE52600706BC6 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8886CCDB295DE52600706BC6 /* Build configuration list for PBXNativeTarget "VolleyballScoreAppUITests" */;
 			buildPhases = (
+				1D91A0FA385B0428FB705C21 /* [CP] Check Pods Manifest.lock */,
 				8886CCC7295DE52600706BC6 /* Sources */,
 				8886CCC8295DE52600706BC6 /* Frameworks */,
 				8886CCC9295DE52600706BC6 /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D91A0FA385B0428FB705C21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolleyballScoreApp-VolleyballScoreAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F481B17F048051FECC2A2EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolleyballScoreApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD26DE533A65C55ECC5D8AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolleyballScoreAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8886CCAD295DE52500706BC6 /* Sources */ = {
@@ -411,6 +524,7 @@
 		};
 		8886CCD6295DE52600706BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +553,7 @@
 		};
 		8886CCD7295DE52600706BC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FE375921D87C53ADEC25F7 /* Pods-VolleyballScoreApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +582,7 @@
 		};
 		8886CCD9295DE52600706BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +603,7 @@
 		};
 		8886CCDA295DE52600706BC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +624,7 @@
 		};
 		8886CCDC295DE52600706BC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +643,7 @@
 		};
 		8886CCDD295DE52600706BC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
