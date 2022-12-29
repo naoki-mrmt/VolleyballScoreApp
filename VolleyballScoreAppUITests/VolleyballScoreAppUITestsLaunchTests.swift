@@ -2,7 +2,7 @@
 //  VolleyballScoreAppUITestsLaunchTests.swift
 //  VolleyballScoreAppUITests
 //
-//  Created by Naoki Muramoto on 2022/12/30.
+//  Created by naoki-mrmt on 2022/12/30.
 //
 
 import XCTest
