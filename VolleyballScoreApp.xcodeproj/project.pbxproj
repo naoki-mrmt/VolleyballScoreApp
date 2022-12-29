@@ -17,6 +17,7 @@
 		8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */; };
 		8886CCD0295DE52600706BC6 /* VolleyballScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */; };
 		8886CCD2295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */; };
+		8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCDE295DE6EE00706BC6 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8886CCCB295DE52600706BC6 /* VolleyballScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITests.swift; sourceTree = "<group>"; };
 		8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8886CCDE295DE6EE00706BC6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				8886CCB6295DE52500706BC6 /* ContentView.swift */,
 				8886CCB8295DE52600706BC6 /* Assets.xcassets */,
 				8886CCBA295DE52600706BC6 /* Preview Content */,
+				8886CCDE295DE6EE00706BC6 /* Settings.bundle */,
 			);
 			path = VolleyballScoreApp;
 			sourceTree = "<group>";
@@ -164,7 +167,6 @@
 				B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */,
 				A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +181,7 @@
 				8886CCAD295DE52500706BC6 /* Sources */,
 				8886CCAE295DE52500706BC6 /* Frameworks */,
 				8886CCAF295DE52500706BC6 /* Resources */,
+				8886CCE0295DE72100706BC6 /* Run Script LicexsePlist */,
 			);
 			buildRules = (
 			);
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */,
+				8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */,
 				8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +344,25 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8886CCE0295DE72100706BC6 /* Run Script LicexsePlist */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script LicexsePlist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$ENABLE_PREVIEW\" == \"YES\" ]; then\n  echo \"preview mode\"\n  exit 0\nfi\n\n${PODS_ROOT}/LicensePlist/license-plist --output-path \"$TARGET_NAME/Settings.bundle\" --github-token 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\n";
 		};
 		DD26DE533A65C55ECC5D8AE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
