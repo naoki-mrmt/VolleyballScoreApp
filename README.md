@@ -1,6 +1,11 @@
 # VolleyballScoreApp
 English / [日本語](./README-ja.md)
 
+|Branch|Result|
+|:--:|:--:|
+|[main](https://github.com/naoki-mrmt/VolleyballScoreApp/tree/main)|[![CI](https://github.com/naoki-mrmt/VolleyballScoreApp/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/naoki-mrmt/VolleyballScoreApp/actions/workflows/main.yml)|
+|[develop](https://github.com/naoki-mrmt/VolleyballScoreApp)|[![CI](https://github.com/naoki-mrmt/VolleyballScoreApp/actions/workflows/main.yml/badge.svg?branch=develop)](https://github.com/naoki-mrmt/VolleyballScoreApp/actions/workflows/main.yml)|
+
 ## Table of Contents
 - [Development](#Development)
 
@@ -35,9 +40,10 @@ English / [日本語](./README-ja.md)
 ```shell
 $ make help
 
-generate             generate xcworkspace
 open                 Open workspace in Xcode
 setup                setup
+Xcode-build          Xcode build command for CI
 help                 print this message
+generate             generate xcworkspace
 ```
 
