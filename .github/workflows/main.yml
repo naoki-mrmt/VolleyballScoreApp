@@ -8,12 +8,14 @@ on:
     paths-ignore:
       - Docs/**
       - README.md
+      - README-ja.md
   pull_request:
     branches:
       - develop
     paths-ignore:
       - Docs/**
       - README.md
+      - README-ja.md
 
 env:
   DEVELOPER_DIR: /Applications/Xcode_14.2.app
