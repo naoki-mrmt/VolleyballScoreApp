@@ -45,8 +45,8 @@ jobs:
         xcodebuild
         -sdk iphonesimulator
         -configuration Debug
-        -workspace TechCurationApp.xcworkspace
-        -scheme TechCurationApp
+        -workspace VolleyballScoreApp.xcworkspace
+        -scheme VolleyballScoreApp
         build
         | bundle exec xcpretty
     # テストが入っていないため一旦コメントアウト
