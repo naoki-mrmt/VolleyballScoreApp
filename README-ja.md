@@ -40,8 +40,9 @@
 ```shell
 $ make help
 
-generate             generate xcworkspace
 open                 Open workspace in Xcode
 setup                setup
+Xcode-build          Xcode build command for CI
 help                 print this message
+generate             generate xcworkspace
 ```
