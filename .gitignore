@@ -12,6 +12,9 @@ VolleyballScoreApp/com.mono0926.LicensePlist
 VolleyballScoreApp/Settings.bundle/com.mono0926.LicensePlist.*
 VolleyballScoreApp/Settings.bundle/com.mono0926.LicensePlist
 
+# Firebase
+VolleyballScoreApp/GoogleService-Info.plist
+
 ## Various settings
 *.pbxuser
 !default.pbxuser

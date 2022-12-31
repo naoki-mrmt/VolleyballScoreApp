@@ -6,9 +6,17 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct VolleyballScoreAppApp: App {
+
+    // MARK: - init
+    init() {
+        FirebaseApp.configure()
+    }
+
+    // MARK: - Body
     var body: some Scene {
         WindowGroup {
             ContentView()
