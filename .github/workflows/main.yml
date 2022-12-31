@@ -42,6 +42,13 @@ jobs:
           ${{ runner.os }}-pods-
     - name: Install Pods
       run: bundle exec pod install
+    - name: Translate secrets of base64 into json
+      env: GOOGLE_SERVICE_JSON: ${{ secrets.GOOGLE_SERVICE_JSON }}
+      run: echo $GOOGLE_SERVICE_JSON | base64 --decode > ./VolleyballScoreApp/output.json
+    - name: Translate json into plist and generate GoogleService-info.plist
+      run: plutil -convert xml1 ./VolleyballScoreApp/output.json -o ./VolleyballScoreApp/GoogleService-info.plist
+    - name: Remove json file
+      run: rm ./VolleyballScoreApp/output.json
     - name: Xcode build
       run: make Xcode-build
     # テストが入っていないため一旦コメントアウト
