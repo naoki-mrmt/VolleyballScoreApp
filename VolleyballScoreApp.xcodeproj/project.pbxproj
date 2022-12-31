@@ -17,8 +17,8 @@
 		8872D2E52960265A008FBFCE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8872D2E42960265A008FBFCE /* GoogleService-Info.plist */; };
 		8872D2EA29602CBC008FBFCE /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2E929602CBC008FBFCE /* LaunchView.swift */; };
 		8872D2ED29602E44008FBFCE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2EC29602E44008FBFCE /* HomeView.swift */; };
+		8872D2F029602F43008FBFCE /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8872D2EF29602F43008FBFCE /* Image.xcassets */; };
 		8886CCB5295DE52500706BC6 /* VolleyballScoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */; };
-		8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCB8295DE52600706BC6 /* Assets.xcassets */; };
 		8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */; };
 		8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */; };
 		8886CCD0295DE52600706BC6 /* VolleyballScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */; };
@@ -52,9 +52,9 @@
 		8872D2E42960265A008FBFCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "VolleyballScoreApp/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8872D2E929602CBC008FBFCE /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		8872D2EC29602E44008FBFCE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8872D2EF29602F43008FBFCE /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppApp.swift; sourceTree = "<group>"; };
-		8886CCB8295DE52600706BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8886CCC1295DE52600706BC6 /* VolleyballScoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballScoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppTests.swift; sourceTree = "<group>"; };
@@ -133,6 +133,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		8872D2EE29602F22008FBFCE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8872D2EF29602F43008FBFCE /* Image.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		8886CCA8295DE52500706BC6 = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +169,7 @@
 				8872D2E42960265A008FBFCE /* GoogleService-Info.plist */,
 				8872D2E1296020B0008FBFCE /* Application */,
 				8872D2E729602BF2008FBFCE /* Screen */,
-				8886CCB8295DE52600706BC6 /* Assets.xcassets */,
+				8872D2EE29602F22008FBFCE /* Resource */,
 				8886CCBA295DE52600706BC6 /* Preview Content */,
 				8886CCDE295DE6EE00706BC6 /* Settings.bundle */,
 			);
@@ -336,8 +344,8 @@
 			files = (
 				8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */,
 				8872D2E52960265A008FBFCE /* GoogleService-Info.plist in Resources */,
+				8872D2F029602F43008FBFCE /* Image.xcassets in Resources */,
 				8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */,
-				8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
