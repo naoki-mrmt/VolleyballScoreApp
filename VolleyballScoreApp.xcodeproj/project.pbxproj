@@ -14,7 +14,6 @@
 		8872D2D0296011B0008FBFCE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2CF296011B0008FBFCE /* FirebaseCrashlytics */; };
 		8872D2D2296011B0008FBFCE /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2D1296011B0008FBFCE /* FirebasePerformance */; };
 		8872D2D4296011B0008FBFCE /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2D3296011B0008FBFCE /* FirebaseRemoteConfig */; };
-		8872D2D629601388008FBFCE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8872D2D529601388008FBFCE /* GoogleService-Info.plist */; };
 		8886CCB5295DE52500706BC6 /* VolleyballScoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */; };
 		8886CCB7295DE52500706BC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB6295DE52500706BC6 /* ContentView.swift */; };
 		8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCB8295DE52600706BC6 /* Assets.xcassets */; };
@@ -48,7 +47,6 @@
 		37AC52D2D503971071A064B5 /* Pods-VolleyballScoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp/Pods-VolleyballScoreApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4C2DA6EA84A88E75B4E2A765 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp-VolleyballScoreAppUITests/Pods-VolleyballScoreApp-VolleyballScoreAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8872D2D529601388008FBFCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppApp.swift; sourceTree = "<group>"; };
 		8886CCB6295DE52500706BC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */,
 				8886CCB6295DE52500706BC6 /* ContentView.swift */,
 				8886CCB8295DE52600706BC6 /* Assets.xcassets */,
-				8872D2D529601388008FBFCE /* GoogleService-Info.plist */,
 				8886CCBA295DE52600706BC6 /* Preview Content */,
 				8886CCDE295DE6EE00706BC6 /* Settings.bundle */,
 			);
@@ -300,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */,
-				8872D2D629601388008FBFCE /* GoogleService-Info.plist in Resources */,
 				8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */,
 				8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */,
 			);
