@@ -2,7 +2,7 @@
 //  HomeView.swift
 //  VolleyballScoreApp
 //
-//  Created by Naoki Muramoto on 2022/12/31.
+//  Created by naoki-mrmt on 2022/12/31.
 //
 
 import SwiftUI
