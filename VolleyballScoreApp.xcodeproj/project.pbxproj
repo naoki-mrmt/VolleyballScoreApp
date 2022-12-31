@@ -98,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8872D2E1296020B0008FBFCE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		8886CCA8295DE52500706BC6 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +131,8 @@
 		8886CCB3295DE52500706BC6 /* VolleyballScoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				8872D2E1296020B0008FBFCE /* Application */,
 				8872D2DF29601D48008FBFCE /* GoogleService-Info.plist */,
-				8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */,
 				8886CCB6295DE52500706BC6 /* ContentView.swift */,
 				8886CCB8295DE52600706BC6 /* Assets.xcassets */,
 				8886CCBA295DE52600706BC6 /* Preview Content */,
