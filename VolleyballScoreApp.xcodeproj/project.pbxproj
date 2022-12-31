@@ -10,6 +10,10 @@
 		19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE81FE1B2854D649C34062 /* Pods_VolleyballScoreApp.framework */; };
 		3429EFD9D44BC5A95FB95F1B /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */; };
 		76F02114542B7164E2BCDB9B /* Pods_VolleyballScoreAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */; };
+		8872D2CE296011B0008FBFCE /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2CD296011B0008FBFCE /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		8872D2D0296011B0008FBFCE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2CF296011B0008FBFCE /* FirebaseCrashlytics */; };
+		8872D2D2296011B0008FBFCE /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2D1296011B0008FBFCE /* FirebasePerformance */; };
+		8872D2D4296011B0008FBFCE /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 8872D2D3296011B0008FBFCE /* FirebaseRemoteConfig */; };
 		8886CCB5295DE52500706BC6 /* VolleyballScoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreAppApp.swift */; };
 		8886CCB7295DE52500706BC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB6295DE52500706BC6 /* ContentView.swift */; };
 		8886CCB9295DE52600706BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCB8295DE52600706BC6 /* Assets.xcassets */; };
@@ -65,7 +69,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8872D2D0296011B0008FBFCE /* FirebaseCrashlytics in Frameworks */,
 				19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */,
+				8872D2D2296011B0008FBFCE /* FirebasePerformance in Frameworks */,
+				8872D2CE296011B0008FBFCE /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				8872D2D4296011B0008FBFCE /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +197,12 @@
 			dependencies = (
 			);
 			name = VolleyballScoreApp;
+			packageProductDependencies = (
+				8872D2CD296011B0008FBFCE /* FirebaseAnalyticsWithoutAdIdSupport */,
+				8872D2CF296011B0008FBFCE /* FirebaseCrashlytics */,
+				8872D2D1296011B0008FBFCE /* FirebasePerformance */,
+				8872D2D3296011B0008FBFCE /* FirebaseRemoteConfig */,
+			);
 			productName = VolleyballScoreApp;
 			productReference = 8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */;
 			productType = "com.apple.product-type.application";
@@ -263,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 8886CCA8295DE52500706BC6;
+			packageReferences = (
+				8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8886CCB2295DE52500706BC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -745,6 +762,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8872D2CD296011B0008FBFCE /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		8872D2CF296011B0008FBFCE /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		8872D2D1296011B0008FBFCE /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		8872D2D3296011B0008FBFCE /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8886CCA9295DE52500706BC6 /* Project object */;
 }
