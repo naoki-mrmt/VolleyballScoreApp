@@ -43,7 +43,8 @@ jobs:
     - name: Install Pods
       run: bundle exec pod install
     - name: Translate secrets of base64 into json
-      env: GOOGLE_SERVICE: ${{ secrets.GOOGLE_SERVICE_JSON }}
+      env:
+        GOOGLE_SERVICE: ${{ secrets.GOOGLE_SERVICE_JSON }}
       run: echo $GOOGLE_SERVICE | base64 --decode > ./VolleyballScoreApp/output.json
     - name: Translate json into plist and generate GoogleService-info.plist
       run: plutil -convert xml1 ./VolleyballScoreApp/output.json -o ./VolleyballScoreApp/GoogleService-info.plist
