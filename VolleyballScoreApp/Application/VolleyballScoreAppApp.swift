@@ -19,7 +19,7 @@ struct VolleyballScoreAppApp: App {
     // MARK: - Body
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
 }
