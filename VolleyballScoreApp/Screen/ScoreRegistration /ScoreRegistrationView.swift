@@ -2,7 +2,7 @@
 //  ScoreRegistrationView.swift
 //  VolleyballScoreApp
 //
-//  Created by Naoki Muramoto on 2023/01/02.
+//  Created by naoki-mrmt on 2023/01/02.
 //
 
 import SwiftUI
