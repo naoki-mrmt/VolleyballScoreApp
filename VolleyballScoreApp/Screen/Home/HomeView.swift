@@ -9,7 +9,37 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                NavigationLink {
+                    ScoreRegistrationView()
+                } label: {
+                    Text("スコア登録")
+                } //: NavigationLink
+                NavigationLink {
+                    TeamMemberListView()
+                } label: {
+                    Text("チームメンバー一覧")
+                } //: NavigationLink
+                NavigationLink {
+                    AttackPatternListView()
+                } label: {
+                    Text("攻撃パターン一覧")
+                } //: NavigationLink
+                NavigationLink {
+                    MatchResultView()
+                } label: {
+                    Text("試合結果一覧")
+                } //: NavigationLink
+                NavigationLink {
+                    TeamMemberListView()
+                } label: {
+                    Text("オンボーディング")
+                } //: NavigationLink
+            } //: List
+            .listStyle(GroupedListStyle())
+            .navigationBarTitle("AttackVScore")
+        } //: NavigationStack
     }
 }
 
