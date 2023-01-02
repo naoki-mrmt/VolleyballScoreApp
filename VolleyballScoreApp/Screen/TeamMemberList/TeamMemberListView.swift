@@ -15,6 +15,7 @@ struct TeamMemberListView: View {
 
 struct TeamMemberListView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamMemberListView()
+        TeamMemberListView().iPadPro11()
+        TeamMemberListView().iPadPro12()
     }
 }
