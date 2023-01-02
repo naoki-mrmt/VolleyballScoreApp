@@ -18,7 +18,12 @@
 		8872D2EA29602CBC008FBFCE /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2E929602CBC008FBFCE /* LaunchView.swift */; };
 		8872D2ED29602E44008FBFCE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2EC29602E44008FBFCE /* HomeView.swift */; };
 		8872D2F029602F43008FBFCE /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8872D2EF29602F43008FBFCE /* Image.xcassets */; };
-		8886CCB5295DE52500706BC6 /* VolleyballScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreApp.swift */; };
+		8872D2F32962BBD3008FBFCE /* TeamMemberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2F22962BBD3008FBFCE /* TeamMemberListView.swift */; };
+		8872D2F62962BE99008FBFCE /* AttackPatternListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2F52962BE99008FBFCE /* AttackPatternListView.swift */; };
+		8872D2FB2962BF0D008FBFCE /* ScoreRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FA2962BF0D008FBFCE /* ScoreRegistrationView.swift */; };
+		8872D2FE2962BFA4008FBFCE /* MatchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */; };
+		8872D3012962C049008FBFCE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D3002962C049008FBFCE /* OnboardingView.swift */; };
+        8886CCB5295DE52500706BC6 /* VolleyballScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreApp.swift */; };
 		8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */; };
 		8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */; };
 		8886CCD0295DE52600706BC6 /* VolleyballScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCCF295DE52600706BC6 /* VolleyballScoreAppUITests.swift */; };
@@ -54,6 +59,11 @@
 		8872D2E929602CBC008FBFCE /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		8872D2EC29602E44008FBFCE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8872D2EF29602F43008FBFCE /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		8872D2F22962BBD3008FBFCE /* TeamMemberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberListView.swift; sourceTree = "<group>"; };
+		8872D2F52962BE99008FBFCE /* AttackPatternListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackPatternListView.swift; sourceTree = "<group>"; };
+		8872D2FA2962BF0D008FBFCE /* ScoreRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRegistrationView.swift; sourceTree = "<group>"; };
+		8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultView.swift; sourceTree = "<group>"; };
+		8872D3002962C049008FBFCE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCB4295DE52500706BC6 /* VolleyballScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreApp.swift; sourceTree = "<group>"; };
 		8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -115,6 +125,11 @@
 			children = (
 				8872D2E829602C03008FBFCE /* Launch */,
 				8872D2EB29602E36008FBFCE /* Home */,
+				8872D2F12962BBBD008FBFCE /* TeamMemberList */,
+				8872D2F42962BE78008FBFCE /* AttackPatternList */,
+				8872D2F72962BEE4008FBFCE /* ScoreRegistration  */,
+				8872D2FC2962BF93008FBFCE /* MatchResult */,
+				8872D2FF2962BFFB008FBFCE /* Onboarding */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -141,6 +156,46 @@
 				8872D2EF29602F43008FBFCE /* Image.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		8872D2F12962BBBD008FBFCE /* TeamMemberList */ = {
+			isa = PBXGroup;
+			children = (
+				8872D2F22962BBD3008FBFCE /* TeamMemberListView.swift */,
+			);
+			path = TeamMemberList;
+			sourceTree = "<group>";
+		};
+		8872D2F42962BE78008FBFCE /* AttackPatternList */ = {
+			isa = PBXGroup;
+			children = (
+				8872D2F52962BE99008FBFCE /* AttackPatternListView.swift */,
+			);
+			path = AttackPatternList;
+			sourceTree = "<group>";
+		};
+		8872D2F72962BEE4008FBFCE /* ScoreRegistration  */ = {
+			isa = PBXGroup;
+			children = (
+				8872D2FA2962BF0D008FBFCE /* ScoreRegistrationView.swift */,
+			);
+			path = "ScoreRegistration ";
+			sourceTree = "<group>";
+		};
+		8872D2FC2962BF93008FBFCE /* MatchResult */ = {
+			isa = PBXGroup;
+			children = (
+				8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */,
+			);
+			path = MatchResult;
+			sourceTree = "<group>";
+		};
+		8872D2FF2962BFFB008FBFCE /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8872D3002962C049008FBFCE /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		8886CCA8295DE52500706BC6 = {
@@ -488,7 +543,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8872D2FB2962BF0D008FBFCE /* ScoreRegistrationView.swift in Sources */,
 				8872D2ED29602E44008FBFCE /* HomeView.swift in Sources */,
+				8872D2F32962BBD3008FBFCE /* TeamMemberListView.swift in Sources */,
+				8872D2F62962BE99008FBFCE /* AttackPatternListView.swift in Sources */,
+				8872D2FE2962BFA4008FBFCE /* MatchResultView.swift in Sources */,
+				8872D3012962C049008FBFCE /* OnboardingView.swift in Sources */,
 				8872D2EA29602CBC008FBFCE /* LaunchView.swift in Sources */,
                 8886CCB5295DE52500706BC6 /* VolleyballScoreApp.swift in Sources */,
 				888C2DD52963203700F21BD6 /* PreviewProviderExtension.swift in Sources */,
