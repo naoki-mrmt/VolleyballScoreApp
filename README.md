@@ -18,32 +18,32 @@ English / [日本語](./README-ja.md)
 ### Setup
 1. Clone the project
     ```shell
-    $ git clone https://github.com/naoki-mrmt/VolleyballScoreApp.git
-    $ cd VolleyballScoreApp
+    git clone https://github.com/naoki-mrmt/VolleyballScoreApp.git
+    cd VolleyballScoreApp
     ```
 2. Enable faster builds for Swift projects (Optional)
     ```shell
-    $ defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
+    defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
     ```
-3. install CocoaPods
-    ```shell
-    $ make setup
-    ```
-4. Generate xcworkspace and Open Project in Xcode
-    ```shell
-    $ make
-    ```
+3. Run ```make setup``` 
+  - Setup is complete, workspace will open in Xcode.
+
+### Open Project
+```shell
+make
+```
 
 ### Help
-`make help`
-
 ```shell
-$ make help
+make help
 
-open                 Open workspace in Xcode
+generate-xcworkspace generate xcworkspace
 setup                setup
+gem-install          gem install
+bundle-install       bundle install
+pod-install          bundle exec pod install
+open                 Open workspace in Xcode
 Xcode-build          Xcode build command for CI
 help                 print this message
-generate             generate xcworkspace
 ```
 
