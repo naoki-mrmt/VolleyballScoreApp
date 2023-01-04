@@ -25,24 +25,24 @@
     ```shell
     $ defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
     ```
-3. CocoaPodsのインストール
-    ```shell
-    $ make setup
-    ```
-4. xcworkspaceの生成・起動
-    ```shell
-    $ make
-    ```
+3. ```make setup```を実行
+  - セットアップが完了すると、Xcodeでワークスペースが開きます
+
+### ワークスペースを起動
+```shell
+make
+```
 
 ### ヘルプ
-`make help`
-
 ```shell
-$ make help
+make help
 
-open                 Open workspace in Xcode
+generate-xcworkspace generate xcworkspace
 setup                setup
+gem-install          gem install
+bundle-install       bundle install
+pod-install          bundle exec pod install
+open                 Open workspace in Xcode
 Xcode-build          Xcode build command for CI
 help                 print this message
-generate             generate xcworkspace
 ```
