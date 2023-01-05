@@ -30,7 +30,7 @@ open: ## Open workspace in Xcode
 
 .PHONY: Xcode-build
 Xcode-build: ## Xcode build command for CI
-	set -o pipefail && xcodebuild -sdk iphonesimulator -configuration Debug -workspace VolleyballScoreApp.xcworkspace -scheme VolleyballScoreApp build | bundle exec xcpretty
+	set -o pipefail && xcodebuild -sdk iphonesimulator -configuration Debug -workspace ${WORKSPACE_NAME} -scheme ${PRODUCT_NAME} build | bundle exec xcpretty
 
 .PHONY: help
 help: ## print this message
