@@ -20,7 +20,7 @@ gem-install: ## gem install
 .PHONY: bundle-install
 bundle-install: ## bundle install
 	$(info $(SEPARATOR))
-	bundle install
+	bundle install -j4
 
 .PHONY: pod-install
 pod-install: ## bundle exec pod install
