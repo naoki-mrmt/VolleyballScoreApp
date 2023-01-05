@@ -1,16 +1,17 @@
 PRODUCT_NAME := VolleyballScoreApp
 WORKSPACE_NAME := ${PRODUCT_NAME}.xcworkspace
-
-.PHONY: generate-xcworkspace
-generate-xcworkspace: ## generate xcworkspace
-	$(MAKE) pod-install
-	open ./${WORKSPACE_NAME}
+.DEFAULT_GOAL := generate-xcworkspace
 
 .PHONY: setup
 setup: ## install bundler and bundle install, pod install
 	$(MAKE) gem-install
 	$(MAKE) bundle-install
 	$(MAKE) generate-xcworkspace
+
+.PHONY: generate-xcworkspace
+generate-xcworkspace: ## generate xcworkspace
+	$(MAKE) pod-install
+	open ./${WORKSPACE_NAME}
 
 .PHONY: gem-install
 gem-install: ## gem install
