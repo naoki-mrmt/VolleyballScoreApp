@@ -39,6 +39,10 @@ enable-faster-builds: ## Enable faster builds for Swift projects
 Xcode-build: ## Xcode build command for CI
 	set -o pipefail && xcodebuild -sdk iphonesimulator -configuration Debug -workspace ${WORKSPACE_NAME} -scheme ${PRODUCT_NAME} build | bundle exec xcpretty
 
+.PHONY: Xcode-clean
+Xcode-clean: ## delete DerivedData
+	rm -rf ~/Library/Developer/Xcode/DerivedData/
+
 .PHONY: help
 help: ## print this message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
