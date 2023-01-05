@@ -31,6 +31,10 @@ pod-install: ## bundle exec pod install
 open: ## Open workspace in Xcode
 	open ./${WORKSPACE_NAME}
 
+.PHONY: enable-faster-builds
+enable-faster-builds: ## Enable faster builds for Swift projects
+	defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
+
 .PHONY: Xcode-build
 Xcode-build: ## Xcode build command for CI
 	set -o pipefail && xcodebuild -sdk iphonesimulator -configuration Debug -workspace ${WORKSPACE_NAME} -scheme ${PRODUCT_NAME} build | bundle exec xcpretty
