@@ -18,17 +18,18 @@
 ### セットアップ
 1. プロジェクトのクローン
     ```shell
-    $ git clone https://github.com/naoki-mrmt/VolleyballScoreApp.git
-    $ cd VolleyballScoreApp
+    git clone https://github.com/naoki-mrmt/VolleyballScoreApp.git
+    cd VolleyballScoreApp
     ```
 2. Swiftプロジェクトのビルドを高速化 (任意)
     ```shell
-    $ defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
+    make enable-faster-builds
     ```
 3. ```make setup```を実行
   - セットアップが完了すると、Xcodeでワークスペースが開きます
 
 ### ワークスペースを起動
+- pod installが完了すると、Xcodeでワークスペースが開きます
 ```shell
 make
 ```
@@ -38,11 +39,12 @@ make
 make help
 
 generate-xcworkspace generate xcworkspace
-setup                setup
+setup                install bundler and bundle install, pod install
 gem-install          gem install
 bundle-install       bundle install
 pod-install          bundle exec pod install
-open                 Open workspace in Xcode
+enable-faster-builds Enable faster builds for Swift projects
 Xcode-build          Xcode build command for CI
+Xcode-clean          delete DerivedData
 help                 print this message
 ```

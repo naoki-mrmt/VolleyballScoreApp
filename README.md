@@ -23,12 +23,13 @@ English / [日本語](./README-ja.md)
     ```
 2. Enable faster builds for Swift projects (Optional)
     ```shell
-    defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 1
+    make enable-faster-builds
     ```
 3. Run ```make setup``` 
   - Setup is complete, workspace will open in Xcode.
 
 ### Open Project
+- pod install is complete, workspace will open in Xcode. 
 ```shell
 make
 ```
@@ -38,12 +39,13 @@ make
 make help
 
 generate-xcworkspace generate xcworkspace
-setup                setup
+setup                install bundler and bundle install, pod install
 gem-install          gem install
 bundle-install       bundle install
 pod-install          bundle exec pod install
-open                 Open workspace in Xcode
+enable-faster-builds Enable faster builds for Swift projects
 Xcode-build          Xcode build command for CI
+Xcode-clean          delete DerivedData
 help                 print this message
 ```
 
