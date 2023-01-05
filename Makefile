@@ -14,14 +14,17 @@ setup: ## install bundler and bundle install, pod install
 
 .PHONY: gem-install
 gem-install: ## gem install
+	$(info $(SEPARATOR))
 	gem install bundler
 
 .PHONY: bundle-install
 bundle-install: ## bundle install
+	$(info $(SEPARATOR))
 	bundle install
 
 .PHONY: pod-install
 pod-install: ## bundle exec pod install
+	$(info $(SEPARATOR))
 	bundle exec pod install
 
 .PHONY: open
@@ -35,3 +38,5 @@ Xcode-build: ## Xcode build command for CI
 .PHONY: help
 help: ## print this message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
+
+SEPARATOR=********************
