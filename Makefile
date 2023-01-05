@@ -4,7 +4,7 @@ WORKSPACE_NAME := ${PRODUCT_NAME}.xcworkspace
 .PHONY: generate-xcworkspace
 generate-xcworkspace: ## generate xcworkspace
 	$(MAKE) pod-install
-	$(MAKE) open
+	open ./${WORKSPACE_NAME}
 
 .PHONY: setup
 setup: ## install bundler and bundle install, pod install
@@ -26,10 +26,6 @@ bundle-install: ## bundle install
 pod-install: ## bundle exec pod install
 	$(info $(SEPARATOR))
 	bundle exec pod install
-
-.PHONY: open
-open: ## Open workspace in Xcode
-	open ./${WORKSPACE_NAME}
 
 .PHONY: enable-faster-builds
 enable-faster-builds: ## Enable faster builds for Swift projects
