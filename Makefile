@@ -7,7 +7,7 @@ generate-xcworkspace: ## generate xcworkspace
 	$(MAKE) open
 
 .PHONY: setup
-setup: ## setup
+setup: ## install bundler and bundle install, pod install
 	$(MAKE) gem-install
 	$(MAKE) bundle-install
 	$(MAKE) generate-xcworkspace
