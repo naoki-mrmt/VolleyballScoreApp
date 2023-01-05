@@ -38,8 +38,8 @@ make
 ```shell
 make help
 
-generate-xcworkspace generate xcworkspace
 setup                install bundler and bundle install, pod install
+generate-xcworkspace generate xcworkspace
 gem-install          gem install
 bundle-install       bundle install
 pod-install          bundle exec pod install
