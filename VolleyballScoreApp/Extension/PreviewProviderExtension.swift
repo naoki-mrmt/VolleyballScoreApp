@@ -11,7 +11,7 @@ extension View {
     /// ppi326のprevセッティング
     func ppi326() -> some View {
         self
-            .previewDevice(PreviewDevice(rawValue: "iPad mini (5th generation)"))
+            .previewDevice(PreviewDevice(rawValue: "iPad mini (6th generation)"))
             .previewInterfaceOrientation(.landscapeRight)
             .previewDisplayName("iPad mini")
     }
