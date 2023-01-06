@@ -15,7 +15,7 @@ struct ScoreRegistrationView: View {
 
 struct ScoreRegistrationView_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreRegistrationView().iPadPro11()
-        ScoreRegistrationView().iPadPro12()
+        ScoreRegistrationView().ppi326()
+        ScoreRegistrationView().ppi264()
     }
 }

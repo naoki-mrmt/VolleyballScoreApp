@@ -8,19 +8,19 @@
 import SwiftUI
 
 extension View {
-    /// iPad Pro 11inch用のprevセッティング
-    func iPadPro11() -> some View {
+    /// ppi326のprevセッティング
+    func ppi326() -> some View {
         self
-            .previewDisplayName("iPad Pro (11-inch)")
-            .previewDevice("iPad Pro (12.9-inch) (6th generation)")
+            .previewDevice(PreviewDevice(rawValue: "iPad mini (6th generation)"))
             .previewInterfaceOrientation(.landscapeRight)
+            .previewDisplayName("iPad mini")
     }
 
-    /// iPad Pro 12.9inch用のprevセッティング
-    func iPadPro12() -> some View {
+    /// ppi264のprevセッティング
+    func ppi264() -> some View {
         self
-            .previewDisplayName("iPad Pro (12.9-inch)")
-            .previewDevice("iPad Pro (12.9-inch) (6th generation)")
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro (12.9-inch) (6th generation)"))
             .previewInterfaceOrientation(.landscapeRight)
+            .previewDisplayName("iPad Pro (12.9-inch)")
     }
 }
