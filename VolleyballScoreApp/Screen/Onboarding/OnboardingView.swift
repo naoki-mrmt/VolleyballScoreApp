@@ -15,7 +15,7 @@ struct OnboardingView: View {
 
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView().iPadPro11()
-        OnboardingView().iPadPro12()
+        OnboardingView().ppi326()
+        OnboardingView().ppi264()
     }
 }

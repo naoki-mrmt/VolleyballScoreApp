@@ -45,7 +45,7 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView().iPadPro11()
-        HomeView().iPadPro12()
+        HomeView().ppi326()
+        HomeView().ppi264()
     }
 }

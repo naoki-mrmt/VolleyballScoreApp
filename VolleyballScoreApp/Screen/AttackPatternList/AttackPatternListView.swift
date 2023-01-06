@@ -15,7 +15,7 @@ struct AttackPatternListView: View {
 
 struct AttackPatternListView_Previews: PreviewProvider {
     static var previews: some View {
-        AttackPatternListView().iPadPro11()
-        AttackPatternListView().iPadPro12()
+        AttackPatternListView().ppi326()
+        AttackPatternListView().ppi264()
     }
 }
