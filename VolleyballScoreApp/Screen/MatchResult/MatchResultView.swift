@@ -15,6 +15,7 @@ struct MatchResultView: View {
 
 struct MatchResultView_Previews: PreviewProvider {
     static var previews: some View {
-        MatchResultView()
+        MatchResultView().iPadPro11()
+        MatchResultView().iPadPro12()
     }
 }
