@@ -23,7 +23,9 @@
 		8872D2FB2962BF0D008FBFCE /* ScoreRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FA2962BF0D008FBFCE /* ScoreRegistrationView.swift */; };
 		8872D2FE2962BFA4008FBFCE /* MatchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */; };
 		8872D3012962C049008FBFCE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D3002962C049008FBFCE /* OnboardingView.swift */; };
-		8884490B296AB43000F1E83D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8884490A296AB43000F1E83D /* RealmSwift */; };
+		8884490E296AB64800F1E83D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8884490D296AB64800F1E83D /* ComposableArchitecture */; };
+		88844910296AB64800F1E83D /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 8884490F296AB64800F1E83D /* Dependencies */; };
+		88844913296ABBFD00F1E83D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 88844912296ABBFD00F1E83D /* RealmSwift */; };
 		8886CCB5295DE52500706BC6 /* VolleyballScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCB4295DE52500706BC6 /* VolleyballScoreApp.swift */; };
 		8886CCBC295DE52600706BC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCBB295DE52600706BC6 /* Preview Assets.xcassets */; };
 		8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCC5295DE52600706BC6 /* VolleyballScoreAppTests.swift */; };
@@ -86,9 +88,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8884490B296AB43000F1E83D /* RealmSwift in Frameworks */,
+				88844913296ABBFD00F1E83D /* RealmSwift in Frameworks */,
 				8872D2D0296011B0008FBFCE /* FirebaseCrashlytics in Frameworks */,
 				19098C57882EE2778E4776D5 /* Pods_VolleyballScoreApp.framework in Frameworks */,
+				8884490E296AB64800F1E83D /* ComposableArchitecture in Frameworks */,
+				88844910296AB64800F1E83D /* Dependencies in Frameworks */,
 				8872D2D2296011B0008FBFCE /* FirebasePerformance in Frameworks */,
 				8872D2CE296011B0008FBFCE /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				8872D2D4296011B0008FBFCE /* FirebaseRemoteConfig in Frameworks */,
@@ -316,7 +320,9 @@
 				8872D2CF296011B0008FBFCE /* FirebaseCrashlytics */,
 				8872D2D1296011B0008FBFCE /* FirebasePerformance */,
 				8872D2D3296011B0008FBFCE /* FirebaseRemoteConfig */,
-				8884490A296AB43000F1E83D /* RealmSwift */,
+				8884490D296AB64800F1E83D /* ComposableArchitecture */,
+				8884490F296AB64800F1E83D /* Dependencies */,
+				88844912296ABBFD00F1E83D /* RealmSwift */,
 			);
 			productName = VolleyballScoreApp;
 			productReference = 8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */;
@@ -394,7 +400,8 @@
 			mainGroup = 8886CCA8295DE52500706BC6;
 			packageReferences = (
 				8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				88844909296AB43000F1E83D /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8884490C296AB64800F1E83D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				88844911296ABBFD00F1E83D /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 8886CCB2295DE52500706BC6 /* Products */;
 			projectDirPath = "";
@@ -904,7 +911,15 @@
 				kind = branch;
 			};
 		};
-		88844909296AB43000F1E83D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		8884490C296AB64800F1E83D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		88844911296ABBFD00F1E83D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift";
 			requirement = {
@@ -935,9 +950,19 @@
 			package = 8872D2CC296011B0008FBFCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseRemoteConfig;
 		};
-		8884490A296AB43000F1E83D /* RealmSwift */ = {
+		8884490D296AB64800F1E83D /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 88844909296AB43000F1E83D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = 8884490C296AB64800F1E83D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		8884490F296AB64800F1E83D /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8884490C296AB64800F1E83D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		88844912296ABBFD00F1E83D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88844911296ABBFD00F1E83D /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
