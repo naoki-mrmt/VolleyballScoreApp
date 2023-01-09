@@ -12,6 +12,10 @@ extension UIColor {
         UIColor(named: "Primary") ?? UIColor.clear
     }
 
+    class var secondaryColor: UIColor {
+        UIColor(named: "Secondary") ?? UIColor.clear
+    }
+
     class var backgroundColor: UIColor {
         UIColor(named: "Background") ?? UIColor.clear
     }
