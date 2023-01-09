@@ -33,6 +33,7 @@
 		8886CCD2295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */; };
 		8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCDE295DE6EE00706BC6 /* Settings.bundle */; };
 		88893762296BF3E7000AB03F /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88893761296BF3E7000AB03F /* Color.xcassets */; };
+		88893764296BF65C000AB03F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88893763296BF65C000AB03F /* UIColorExtension.swift */; };
 		888C2DD52963203700F21BD6 /* PreviewProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C2DD42963203700F21BD6 /* PreviewProviderExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8886CCDE295DE6EE00706BC6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		88893761296BF3E7000AB03F /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		88893763296BF65C000AB03F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		888C2DD42963203700F21BD6 /* PreviewProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProviderExtension.swift; sourceTree = "<group>"; };
 		A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -272,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				888C2DD42963203700F21BD6 /* PreviewProviderExtension.swift */,
+				88893763296BF65C000AB03F /* UIColorExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -565,6 +568,7 @@
 				8872D2FE2962BFA4008FBFCE /* MatchResultView.swift in Sources */,
 				8872D3012962C049008FBFCE /* OnboardingView.swift in Sources */,
 				8872D2EA29602CBC008FBFCE /* LaunchView.swift in Sources */,
+				88893764296BF65C000AB03F /* UIColorExtension.swift in Sources */,
 				8886CCB5295DE52500706BC6 /* VolleyballScoreApp.swift in Sources */,
 				888C2DD52963203700F21BD6 /* PreviewProviderExtension.swift in Sources */,
 			);
