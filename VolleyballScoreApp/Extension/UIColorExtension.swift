@@ -8,8 +8,8 @@
 import UIKit
 
 extension UIColor {
-    class var mainColor: UIColor {
-        UIColor(named: "Main") ?? UIColor.clear
+    class var primaryColor: UIColor {
+        UIColor(named: "Primary") ?? UIColor.clear
     }
 
     class var backgroundColor: UIColor {
