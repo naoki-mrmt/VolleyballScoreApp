@@ -32,7 +32,8 @@ struct HomeView: View {
                     Text("試合結果一覧")
                 } //: NavigationLink
                 NavigationLink {
-                    TeamMemberListView()
+                    OnboardingView(isHidden: true)
+                        .navigationBarTitleDisplayMode(.inline)
                 } label: {
                     Text("オンボーディング")
                 } //: NavigationLink
