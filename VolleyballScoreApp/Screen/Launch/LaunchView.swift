@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LaunchView: View {
     // MARK: - Property Wrappers
+    @AppStorage("isOnboarding") private var isOnboarding = true
     @State private var isLoading = true
     @State private var animationState: AnimationState = .normal
 
@@ -24,7 +25,11 @@ struct LaunchView: View {
                 .scaleEffect(calculateLogoSize())
                 .onAppear { animationTask() }
         } else {
-            HomeView()
+            if isOnboarding {
+                OnboardingView()
+            } else {
+                HomeView()
+            }
         }
     }
 }
