@@ -26,7 +26,8 @@ struct OnboardingView: View {
             } //: ForEach
         } //: Tab
         .tabViewStyle(PageTabViewStyle())
-        .padding(.vertical, 20)
+        .frame(width: UIScreen.main.bounds.width * 0.7)
+        .padding(.vertical, 32)
     }
 }
 
