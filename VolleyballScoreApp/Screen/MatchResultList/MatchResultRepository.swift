@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Repository: Codable, Identifiable, Equatable {
+struct MatchResultRepository: Codable, Identifiable, Equatable {
     let id: Int
     let otherTeamName: String
     let gameSetCount: String
