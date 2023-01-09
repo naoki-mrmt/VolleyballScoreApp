@@ -15,7 +15,7 @@ struct MatchResultDetailView: View {
 
 struct MatchResultDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TeamMemberListView().ppi326()
-        TeamMemberListView().ppi264()
+        MatchResultDetailView().ppi326()
+        MatchResultDetailView().ppi264()
     }
 }
