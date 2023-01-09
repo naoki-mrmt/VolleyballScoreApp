@@ -9,16 +9,16 @@ import SwiftUI
 
 struct Repository: Codable, Identifiable, Equatable {
     let id: Int
-    let teamName: String
-    let gameCount: String
-    let gameResult: Bool
+    let otherTeamName: String
+    let gameSetCount: String
+    let isWon: Bool
     let gameDate: String
 
     enum CodingKeys: String, CodingKey {
         case id
-        case teamName
-        case gameCount
-        case gameResult
+        case otherTeamName
+        case gameSetCount
+        case isWon
         case gameDate
     }
 }
