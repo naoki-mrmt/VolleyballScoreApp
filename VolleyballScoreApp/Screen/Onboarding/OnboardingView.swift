@@ -21,8 +21,12 @@ struct OnboardingView: View {
     var body: some View {
         let pageCount = onboarding.count
         TabView {
-            ForEach(onboarding[0 ..< pageCount]) { item in
-                OnboardingCardView(onboarding: item, pageCount: pageCount, isHidden: isHidden)
+            ForEach(onboarding) {
+                OnboardingCardView(
+                    onboarding: $0,
+                    pageCount: pageCount,
+                    isHidden: isHidden
+                )
             } //: ForEach
         } //: Tab
         .tabViewStyle(PageTabViewStyle())
