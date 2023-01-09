@@ -27,7 +27,7 @@ struct HomeView: View {
                     Text("攻撃パターン一覧")
                 } //: NavigationLink
                 NavigationLink {
-                    MatchResultView()
+                    MatchResultListView()
                 } label: {
                     Text("試合結果一覧")
                 } //: NavigationLink

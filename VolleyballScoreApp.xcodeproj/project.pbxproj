@@ -21,7 +21,7 @@
 		8872D2F32962BBD3008FBFCE /* TeamMemberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2F22962BBD3008FBFCE /* TeamMemberListView.swift */; };
 		8872D2F62962BE99008FBFCE /* AttackPatternListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2F52962BE99008FBFCE /* AttackPatternListView.swift */; };
 		8872D2FB2962BF0D008FBFCE /* ScoreRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FA2962BF0D008FBFCE /* ScoreRegistrationView.swift */; };
-		8872D2FE2962BFA4008FBFCE /* MatchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */; };
+		8872D2FE2962BFA4008FBFCE /* MatchResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D2FD2962BFA4008FBFCE /* MatchResultListView.swift */; };
 		8872D3012962C049008FBFCE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8872D3002962C049008FBFCE /* OnboardingView.swift */; };
 		8884490E296AB64800F1E83D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8884490D296AB64800F1E83D /* ComposableArchitecture */; };
 		88844910296AB64800F1E83D /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 8884490F296AB64800F1E83D /* Dependencies */; };
@@ -33,6 +33,10 @@
 		8886CCD2295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8886CCD1295DE52600706BC6 /* VolleyballScoreAppUITestsLaunchTests.swift */; };
 		8886CCDF295DE6EE00706BC6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8886CCDE295DE6EE00706BC6 /* Settings.bundle */; };
 		888C2DD52963203700F21BD6 /* PreviewProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C2DD42963203700F21BD6 /* PreviewProviderExtension.swift */; };
+		BA7972F7296BD7FE00648FBB /* MatchResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7972F6296BD7FE00648FBB /* MatchResultRepository.swift */; };
+		BA7972F8296BD7FE00648FBB /* MatchResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7972F6296BD7FE00648FBB /* MatchResultRepository.swift */; };
+		BA7972FB296BE4ED00648FBB /* MatchResultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7972FA296BE4ED00648FBB /* MatchResultDetailView.swift */; };
+		BA7972FC296BE4ED00648FBB /* MatchResultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7972FA296BE4ED00648FBB /* MatchResultDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +69,7 @@
 		8872D2F22962BBD3008FBFCE /* TeamMemberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberListView.swift; sourceTree = "<group>"; };
 		8872D2F52962BE99008FBFCE /* AttackPatternListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackPatternListView.swift; sourceTree = "<group>"; };
 		8872D2FA2962BF0D008FBFCE /* ScoreRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRegistrationView.swift; sourceTree = "<group>"; };
-		8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultView.swift; sourceTree = "<group>"; };
+		8872D2FD2962BFA4008FBFCE /* MatchResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultListView.swift; sourceTree = "<group>"; };
 		8872D3002962C049008FBFCE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		8886CCB1295DE52500706BC6 /* VolleyballScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyballScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8886CCB4295DE52500706BC6 /* VolleyballScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyballScoreApp.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		A6EAFC558A101B66FDF148EC /* Pods-VolleyballScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B57AFFFF13BE622A0F2383D8 /* Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolleyballScoreApp_VolleyballScoreAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82A99C058BF1721F3D861A4 /* Pods-VolleyballScoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreAppTests/Pods-VolleyballScoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA7972F6296BD7FE00648FBB /* MatchResultRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultRepository.swift; sourceTree = "<group>"; };
+		BA7972FA296BE4ED00648FBB /* MatchResultDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultDetailView.swift; sourceTree = "<group>"; };
 		D7F465069356092475758BD7 /* Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VolleyballScoreApp-VolleyballScoreAppUITests/Pods-VolleyballScoreApp-VolleyballScoreAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +140,8 @@
 				8872D2F12962BBBD008FBFCE /* TeamMemberList */,
 				8872D2F42962BE78008FBFCE /* AttackPatternList */,
 				8872D2F72962BEE4008FBFCE /* ScoreRegistration  */,
-				8872D2FC2962BF93008FBFCE /* MatchResult */,
+				8872D2FC2962BF93008FBFCE /* MatchResultList */,
+				BA7972F9296BE4B600648FBB /* MatchResultDetail */,
 				8872D2FF2962BFFB008FBFCE /* Onboarding */,
 			);
 			path = Screen;
@@ -188,12 +195,13 @@
 			path = "ScoreRegistration ";
 			sourceTree = "<group>";
 		};
-		8872D2FC2962BF93008FBFCE /* MatchResult */ = {
+		8872D2FC2962BF93008FBFCE /* MatchResultList */ = {
 			isa = PBXGroup;
 			children = (
-				8872D2FD2962BFA4008FBFCE /* MatchResultView.swift */,
+				8872D2FD2962BFA4008FBFCE /* MatchResultListView.swift */,
+				BA7972F6296BD7FE00648FBB /* MatchResultRepository.swift */,
 			);
-			path = MatchResult;
+			path = MatchResultList;
 			sourceTree = "<group>";
 		};
 		8872D2FF2962BFFB008FBFCE /* Onboarding */ = {
@@ -281,6 +289,14 @@
 				7BD1BA8450330CF7DCEA55CD /* Pods_VolleyballScoreAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA7972F9296BE4B600648FBB /* MatchResultDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BA7972FA296BE4ED00648FBB /* MatchResultDetailView.swift */,
+			);
+			path = MatchResultDetail;
 			sourceTree = "<group>";
 		};
 		C823406C13664F9DCEB63724 /* Pods */ = {
@@ -556,10 +572,12 @@
 			files = (
 				8872D2FB2962BF0D008FBFCE /* ScoreRegistrationView.swift in Sources */,
 				8872D2ED29602E44008FBFCE /* HomeView.swift in Sources */,
+				BA7972FB296BE4ED00648FBB /* MatchResultDetailView.swift in Sources */,
 				8872D2F32962BBD3008FBFCE /* TeamMemberListView.swift in Sources */,
 				8872D2F62962BE99008FBFCE /* AttackPatternListView.swift in Sources */,
-				8872D2FE2962BFA4008FBFCE /* MatchResultView.swift in Sources */,
+				8872D2FE2962BFA4008FBFCE /* MatchResultListView.swift in Sources */,
 				8872D3012962C049008FBFCE /* OnboardingView.swift in Sources */,
+				BA7972F7296BD7FE00648FBB /* MatchResultRepository.swift in Sources */,
 				8872D2EA29602CBC008FBFCE /* LaunchView.swift in Sources */,
 				8886CCB5295DE52500706BC6 /* VolleyballScoreApp.swift in Sources */,
 				888C2DD52963203700F21BD6 /* PreviewProviderExtension.swift in Sources */,
@@ -570,6 +588,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7972FC296BE4ED00648FBB /* MatchResultDetailView.swift in Sources */,
+				BA7972F8296BD7FE00648FBB /* MatchResultRepository.swift in Sources */,
 				8886CCC6295DE52600706BC6 /* VolleyballScoreAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
