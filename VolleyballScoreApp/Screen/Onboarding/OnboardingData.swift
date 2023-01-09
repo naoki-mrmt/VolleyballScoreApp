@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let OnboardingData: [OnboardingRepository] = [
+let onboardingData: [OnboardingRepository] = [
     OnboardingRepository(
         pageNumber: 1,
         title: "",
